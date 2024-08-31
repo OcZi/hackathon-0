@@ -1,5 +1,5 @@
 
-Adrian estudiante de cs jugador de valorant
+Adrian estudiante de cs
 
 Adrian Poma Torres:
 Alumno de Ciencia de la Computacion
