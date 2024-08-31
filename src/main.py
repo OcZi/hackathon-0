@@ -7,6 +7,10 @@ def suma(a, b):
 def multiplicacion(a, b):
     return a * b
 
+def division(a, b):
+     return a / b
+
+
 def calculate(operacion):
     # Usar expresiones regulares para identificar operandos y operadores, incluyendo números negativos
     match = re.match(r'([-+]?\d*\.?\d+)\s*([+\-*/])\s*([-+]?\d*\.?\d+)', operacion)
