@@ -1,5 +1,7 @@
 import re
 
+def resta(a, b):
+    return a - b
 
 
 def calculate(operacion):
