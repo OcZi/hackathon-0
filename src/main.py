@@ -1,8 +1,13 @@
 import re
 
+def suma(a, b):
+    return a + b
+  
 def resta(a, b):
     return a - b
 
+def multiplicacion(a, b):
+    return a * b
 
 def calculate(operacion):
     # Usar expresiones regulares para identificar operandos y operadores, incluyendo números negativos
@@ -41,7 +46,7 @@ def main():
             break
         else:
             operacion_actual = entrada
-            resultado = calcular_operacion(operacion_actual)
+            resultado = calculate(operacion_actual)
             print(f"Resultado: {resultado}")
 
 if __name__ == "__main__":
