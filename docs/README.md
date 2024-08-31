@@ -1,2 +1,1 @@
-Adrian
-Soy adrian estudiante de cs jugador de valorant
+Adrian estudiante de cs jugador de valorant
