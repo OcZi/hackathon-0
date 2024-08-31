@@ -1,5 +1,7 @@
 import re
 
+def suma(a, b):
+    return a + b
 
 
 def calculate(operacion):
@@ -39,7 +41,7 @@ def main():
             break
         else:
             operacion_actual = entrada
-            resultado = calcular_operacion(operacion_actual)
+            resultado = calculate(operacion_actual)
             print(f"Resultado: {resultado}")
 
 if __name__ == "__main__":
