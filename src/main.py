@@ -2,28 +2,22 @@ import re
 import operator
 import math
 
+
 def suma(a, b):
     return a + b
-  
-def resta(a, b):
-    return a - b
 
-def multiplicacion(a, b):
-    return a * b
-
-def division(a, b):
-     return a / b
 
 def resta(a, b):
     return a - b
 
+
 def multiplicacion(a, b):
     return a * b
 
+
 def division(a, b):
-    if b == 0:
-        raise ZeroDivisionError("Error: División por cero")
     return a / b
+
 
 def evaluate_expression(expression):
     """Evaluar expresiones matemáticas utilizando una gramática simple"""
@@ -60,12 +54,14 @@ def evaluate_expression(expression):
     else:
         return "Error: Resultado no válido"
 
+
 def calculate(operacion):
     """Función principal para calcular operaciones"""
     try:
         return evaluate_expression(operacion)
     except Exception as e:
         return str(e)
+
 
 def main():
     operacion_actual = ""
@@ -85,6 +81,7 @@ def main():
                 print(f"Resultado: {resultado}")
             except Exception as e:
                 print(f"Error: {e}")
+
 
 if __name__ == "__main__":
     main()
